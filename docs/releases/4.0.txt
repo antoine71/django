@@ -321,6 +321,11 @@ Validators
 
 * ...
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 .. _backwards-incompatible-4.0:
 
 Backwards incompatible changes in 4.0
@@ -588,3 +593,4 @@ to remove usage of these features.
 * The ``{% ifequal %}`` and ``{% ifnotequal %}`` template tags are removed.
 
 * The ``DEFAULT_HASHING_ALGORITHM`` transitional setting is removed.
+
